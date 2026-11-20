@@ -1,0 +1,47 @@
+{
+  "monitor": 0,
+  "profile": "default",
+  "calibration_points": 9,
+  "show_overlay": true,
+  "show_preview": true,
+  "camera": {
+    "index": 0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "mirror": true,
+    "eye_mode": "right"
+  },
+  "overlay": {
+    "radius": 120.0,
+    "thickness": 5.0,
+    "color": "#ff00ff",
+    "opacity": 0.3,
+    "shadow": true,
+    "glow_intensity": 0.47,
+    "glow_radius": 7.0,
+    "trail_duration_ms": 160,
+    "trail_speed_scale": 0.0,
+    "exclude_from_capture": false,
+    "dim_after_ms": 140,
+    "hide_after_ms": 900
+  },
+  "filter": {
+    "responsiveness": 3,
+    "deadzone_px": 0.0,
+    "update_hz": 60,
+    "head_responsiveness": 43,
+    "max_yaw": 56.0,
+    "max_pitch": 10.0,
+    "max_roll": 33.0
+  },
+  "hotkeys": {
+    "calibrate": "F9",
+    "reset_frontal": "F6",
+    "edge_calibration": "F5",
+    "toggle_overlay": "F10",
+    "toggle_preview": "F8",
+    "toggle_panel": "F7",
+    "quit": "F12"
+  }
+}
